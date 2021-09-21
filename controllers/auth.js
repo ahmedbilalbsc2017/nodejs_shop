@@ -153,7 +153,7 @@ exports.postSignup = (req, res, next) => {
         to: email,
         from: 'ahmed.bilal2017@outlook.com',
         subject: 'Signup succeeded',
-        html: '<h1>You successfully signed up</h1>',
+        html: '<h1>You have successfully signed up</h1>',
       });
     })
     .catch((err) => {
